@@ -1,0 +1,74 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.hero {
+  margin-top: 100px;
+  h1 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 56px;
+    width: 670px;
+    letter-spacing: -0.430769px;
+    color: #36536b;
+  }
+  .forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    &__left {
+      form {
+        margin-top: 60px;
+        input {
+          border: none;
+          background: #edf3f8;
+        }
+        hr {
+          background: #36536b;
+          mix-blend-mode: normal;
+          opacity: 0.5;
+          width: 400px;
+          margin-top: 15px;
+        }
+        .input2 {
+          margin-top: 20px;
+        }
+        .input3 {
+          margin-top: 20px;
+        }
+        .input4 {
+          margin-top: 20px;
+        }
+        .input5 {
+          margin-top: 60px;
+        }
+      }
+    }
+    &__right {
+      margin-left: 120px;
+      h3 {
+        font-family: "DM Serif Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        width: 440px;
+        letter-spacing: -0.184615px;
+        color: #36536b;
+        mix-blend-mode: normal;
+        opacity: 0.75;
+      }
+      img {
+        margin-top: 50px;
+      }
+    }
+  }
+}

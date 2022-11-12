@@ -1,0 +1,60 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.humans {
+  .about-back {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    margin-top: -70px;
+    z-index: -1;
+  }
+  img {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .prices {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 250px;
+    margin-top: 100px;
+
+    .numbers {
+      hr {
+        width: 300px;
+        background: #36536b;
+        mix-blend-mode: normal;
+        opacity: 0.25;
+      }
+      p {
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 10px;
+        color: #36536b;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+      }
+      span {
+        font-family: "DM Serif Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 72px;
+        letter-spacing: -0.430769px;
+        color: #ba4270;
+      }
+    }
+  }
+}

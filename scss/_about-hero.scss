@@ -1,0 +1,81 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.hero {
+  h1 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 180px;
+    letter-spacing: -0.430769px;
+    color: #36536b;
+  }
+
+  &__vision {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    h2 {
+      font-family: "DM Serif Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 40px;
+      margin-left: 100px;
+      letter-spacing: -0.246154px;
+      color: #36536b;
+    }
+    p {
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 28px;
+      margin-left: 150px;
+      width: 550px;
+      color: #6c8294;
+    }
+  }
+
+  &__business {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    h2 {
+      font-family: "DM Serif Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 40px;
+      margin-top: 50px;
+      margin-left: 100px;
+      letter-spacing: -0.246154px;
+      color: #36536b;
+    }
+    p {
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 28px;
+      margin-left: 120px;
+      margin-top: 70px;
+      width: 550px;
+      color: #6c8294;
+    }
+  }
+}

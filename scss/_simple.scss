@@ -1,0 +1,51 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.simple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  &__left {
+    h2 {
+      font-family: "DM Serif Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 56px;
+      letter-spacing: -0.369231px;
+      color: #36536b;
+    }
+    p {
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 28px;
+      width: 400px;
+      color: #6c8294;
+    }
+  }
+
+  &__right {
+    margin-left: 180px;
+
+    .tel-2 {
+      margin-left: -80px;
+    }
+
+    .sim-back {
+      position: absolute;
+      margin-top: -170px;
+      margin-left: -200px;
+      z-index: -1;
+    }
+  }
+}

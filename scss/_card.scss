@@ -1,0 +1,52 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 200px;
+  gap: 100px;
+
+  .card__service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 100px;
+    h4 {
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      margin-top: 32px;
+      margin-left: -10px;
+      letter-spacing: -0.138462px;
+      color: #36536b;
+    }
+    p {
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      width: 300px;
+      text-align: center;
+      margin-left: -100px;
+      margin-top: 16px;
+      letter-spacing: -0.115385px;
+      color: #6c8294;
+    }
+  }
+}
